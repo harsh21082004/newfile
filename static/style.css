@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(51, 50, 54);
+    background: linear-gradient(90deg, rgba(51, 50, 54, 1) 24%, rgba(75, 75, 85, 1) 48%, rgba(39, 39, 61, 1) 80%, rgba(36, 47, 49, 1) 94%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Non-responsive styles */
+
+form {
+      margin-top:20px;
+      padding: 20px;
+      width: 90%;
+      max-width: 500px;
+      margin:0 auto;
+      margin-top:20px;
+      box-sizing: border-box;
+      background: #2c2c2c;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      border-image: linear-gradient(95deg, #ff8a00, #e52e71, #a64dff, #00bfff);
+    border-image-slice: 1;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    background: #2c2c2c;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive styles */
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+form button{
+    width: 100%;
+    max-width:500px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    border-image: linear-gradient(95deg, #ff8a00, #e52e71, #a64dff, #00bfff);
+    border-image-slice: 1;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    background: #2c2c2c;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#search_query:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+    border: 2px solid #ff8a00;
+}
+
+form button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #3d3d3d;
+}
+
+form button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom:10px;
+    padding: 20px;
+    box-sizing:border-box;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #ff8a00, #e52e71, #a64dff, #00bfff);
+    color: white;
+}
+
+li img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 42%;
+}
+
+li strong {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query for smaller screens */
+
